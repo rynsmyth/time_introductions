@@ -1,1 +1,1 @@
-<h1>The current time is <%= Time.now.strftime('%a, %m %b %Y %H:%M:%S %Z %z').to_s %></h1>
+<h1>The current time is <%= Time.now.utc.strftime('%a, %m %b %Y %H:%M:%S %z %Z') %></h1>
